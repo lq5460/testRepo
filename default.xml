@@ -13,7 +13,6 @@
     <project
         name="smash"
         path="ailab/smash"
-        remote="labcv"
         revision="master" />
     
 </manifest>
