@@ -2,18 +2,18 @@
 <manifest>
     <!-- remote server -->
     <remote
-        name="gitlab"
-        fetch="https://code.byted.org" />
+        name="labcv"
+        fetch="https://code.byted.org/lab-cv" />
 
     <default
-        remote="gitlab"
+        remote="labcv"
         revision="master"
         sync-j="1" />
     
     <project
         name="smash"
-        path="lab-cv/smash"
-        remote="gitlab"
+        path="ailab/smash"
+        remote="labcv"
         revision="master" />
     
 </manifest>
