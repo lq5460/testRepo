@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <manifest>
     <!-- remote server -->
-    
-  <remote  name="labcv" fetch="ssh://git@code.byted.org"/>
-  <default
-        remote="labcv"
+    <remote
+        name="github"
+        fetch="https://github.com" />
+
+    <default
+        remote="github"
         revision="master"
         sync-j="1" />
-  <project name="lab-cv/smash" path="ailab/smash" remote="labcv" revision="master"/>
-
+    
+    <project
+        name="google/volley"
+        group="demo"
+        path="google/volley" />
 </manifest>
-
