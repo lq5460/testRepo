@@ -9,4 +9,11 @@
         remote="gitlab"
         revision="master"
         sync-j="1" />
+    
+    <project
+        name="smash"
+        path="lab-cv/smash"
+        remote="gitlab"
+        revision="master" />
+    
 </manifest>
