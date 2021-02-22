@@ -4,7 +4,11 @@
     <remote
         name="github"
         fetch="https://github.com" />
-
+    
+    <remote
+        name="labcv"
+        fetch="ssh://git@code.byted.org" />
+    
     <default
         remote="github"
         revision="master"
@@ -14,4 +18,10 @@
         name="google/volley"
         group="demo"
         path="google/volley" />
+    
+    <project
+        name="lab-cv/smash"
+        group="demo"
+        remote="labcv"
+        path="lab-cv/smash" />
 </manifest>
