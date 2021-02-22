@@ -7,7 +7,7 @@
         remote="labcv"
         revision="master"
         sync-j="1" />
-  <project name="lab-cv/smash" remote="labcv" revision="master"/>
+  <project name="lab-cv/smash" path="ailab/smash" remote="labcv" revision="master"/>
 
 </manifest>
 
